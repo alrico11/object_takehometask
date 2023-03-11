@@ -18,7 +18,7 @@ const object_ku = {
     }
 }
 
-object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, "aktivitas", ["makan","belajar","tidur\n"])
+object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, "aktivitas", ["makan", "belajar", "tidur"])
 object_ku.tampilObj()
 
 const objhitung = {
@@ -29,7 +29,7 @@ const objhitung = {
         bagi = angka1 / angka2
         pangkat = angka1 ** angka2
         modulus = angka1 % angka2
-        console.log(tambah + "\n" + kurang + "\n" + kali + "\n" + bagi + "\n" + pangkat + "\n" + modulus)
+        console.log("\n"+tambah + "\n" + kurang + "\n" + kali + "\n" + bagi + "\n" + pangkat + "\n" + modulus)
     }
 }
 objhitung.hitungMtk(100, 2)
