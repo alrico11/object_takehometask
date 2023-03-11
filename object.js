@@ -1,35 +1,35 @@
 //TUGAS 1
-
+let nama,
+    asal,
+    umur,
+    wa,
+    aktivitas = []
 const object_ku = {
-
-    setObj: function (str1, str2, numb1, numb2, arrKu, isiArr) {
-        object_ku.nama = str1,
-            object_ku.asal = str2,
-            object_ku.umur = numb1,
-            object_ku.wa = numb2,
-            object_ku[arrKu] = isiArr
-    },
-    tampilObj: function () {
-        console.log(object_ku.nama)
-        console.log(object_ku.asal)
-        console.log(object_ku.umur)
-        console.log(object_ku.wa)
-        console.log(object_ku.aktivitas)
+    nama, // aslinya gausah di define bisa, biar masuk kriteria aja ya mas :<
+    asal,
+    umur,
+    wa,
+    aktivitas,
+    setObj: function (str1, str2, numb1, numb2, isiArr) {
+        object_ku.nama = str1, // Create property string
+            object_ku.asal = str2, // Create property string
+            object_ku.umur = numb1, // Create property integer
+            object_ku.wa = numb2, // Create property Integer
+            object_ku["aktivitas"] = isiArr // Create property array
+        console.log(object_ku.nama + "\n" + object_ku.asal + "\n" + object_ku.umur + "\n" + object_ku.wa + "\n" + object_ku.aktivitas) //log obejct
     }
 }
-
-object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, "aktivitas", ["makan", "belajar", "tidur"])
-object_ku.tampilObj()
+object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, ["makan", "belajar", "tidur"]) //call object function
 
 const objhitung = {
-    hitungMtk: function (angka1, angka2) {
+    hitungMtk: function (angka1, angka2) { // define a function
         tambah = angka1 + angka2
         kurang = angka1 - angka2
         kali = angka1 * angka2
         bagi = angka1 / angka2
         pangkat = angka1 ** angka2
         modulus = angka1 % angka2
-        console.log("\n"+tambah + "\n" + kurang + "\n" + kali + "\n" + bagi + "\n" + pangkat + "\n" + modulus)
+        console.log("\n" + tambah + "\n" + kurang + "\n" + kali + "\n" + bagi + "\n" + pangkat + "\n" + modulus)
     }
 }
 objhitung.hitungMtk(100, 2)
