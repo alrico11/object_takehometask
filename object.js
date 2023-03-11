@@ -18,7 +18,7 @@ const object_ku = {
     }
 }
 
-object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, "aktivitas", "makan\n")
+object_ku.setObj("Alrico Rizki Wibowo", "Kota Semarang", 21, 085290328542, "aktivitas", ["makan","belajar","tidur"])
 object_ku.tampilObj()
 
 const objhitung = {
